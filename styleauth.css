@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+
+.form_auth_block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background: url(http://www.dailycompass.org/wp-content/uploads/2013/01/Bubbles.jpg);*/
+    background-image: url(images/auth_bgr.png);
+    background-size: cover;   
+}
+
+.form_auth_block_content{
+    background-color: rgb(20, 20, 49);
+    box-shadow: 0 0 4px 0 white;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+}
+
+.form_auth_style_logo{
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin-bottom: -15px;
+
+}
+
+.form_auth_block_head_text{
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 0px;
+    font-size: 20px;
+    font-weight: 900;
+    color: white;
+}
+
+.form_auth_block input{
+  display: block;
+  border: none;
+  box-shadow: 0 0 2px 0 white;
+  margin: 0 auto;
+  margin-top:10px;
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;  
+  outline: none;
+}
+
+.form_auth_button{
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 2px 0 white;
+}
+
+.form_auth_button:hover, .form_auth_button:focus,.form_auth_button:active {
+    opacity: .75;
+}
